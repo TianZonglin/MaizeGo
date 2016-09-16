@@ -1,0 +1,34 @@
+ID	BorrowTime	Borrower	Number	BackTime	BackNumber	BeforeNum	AfterNum	Type	Notes	Population
+153	2014-5-29	liuhaijun	 30	2014-9-29		200	 190	12RIL0200		seed_kb_ril	
+154	2014-5-29	liuhaijun	30	2014-9-29		100	70	11CQ0017		seed_amp_f2	
+155	2014-5-29	liuhaijun	 40	2014-9-29		100	 80	11YN0054		seed_amp_f2	
+157	2014-6-3	liuhaijun		2014-10-3		80		11YN1969		seed_bb_ril	
+158	2014-6-3	liuhaijun	 30	2014-10-3		200	 170	12RIL0002		seed_bb_ril	
+159	2014-6-3	liuhaijun	13	2014-10-3		100	87	11YN1968		seed_bb_ril	
+160	2014-6-3	liuhaijun	20	2014-10-3		100	100	11AMH0052		seed_amp_f1	
+165	2014-6-13	liuhaijun	34	2014-10-13		100	100	11YN1338		SEED_ASSOCIATION_MAPPING_PANEL	
+166	2014-7-3	liuhaijun		2014-11-3		100		11YN1791		seed_kui3/b77	
+167	2014-7-3	liuhaijun	 45	2014-11-3		100	 155	11YXH1103		seed_kui3/b77	
+168	2014-7-3	liuhaijun		2014-11-3		100		11YN2780		seed_zheng58/sk	
+169	2014-7-3	liuhaijun	 30	2014-11-3		100	 45	11YXH1708		seed_zheng58/sk	
+170	2014-7-3	liuhaijun	23	2014-11-3		100	24	11YN2550		seed_k22/ci7	
+171	2014-7-20	liuhaijun	20	2014-11-20				11YN1759	failure	seed_b73/by804	
+172	2014-7-20	liuhaijun	25	2014-11-20				11YN1791	failure	seed_b73/by804	
+173	2014-7-20	liuhaijun	30	2014-11-20				11YN1782	failure	seed_b73/by804	
+174	2014-7-20	liuhaijun	69	2014-11-20				11YN1750	failure	seed_b73/by804	
+175	2014-7-20	liuhaijun	10	2014-11-20				11YN1797	failure	seed_b73/by804	
+176	2014-7-20	liuhaijun	33	2014-11-20		0	超额	12RIL0192	success	seed_b73/by804	
+177	2014-7-20	liuhaijun	66	2014-11-20		100	34	11YN2084	success	seed_b73/by804	
+178	2014-7-20	liuhaijun	40	2014-11-20		87	47	11YN1968	success	seed_b73/by804	
+179	2014-8-8	liuhaijun	20	2014-12-8		200	180	12RIL0003	 	seed_b73/by804	
+180	2014-8-8	liuhaijun	30	2014-12-8		100	70	12RIL0004	 	seed_b73/by804	
+181	2014-8-8	liuhaijun	40	2014-12-8		200	160	12RIL0005	 	seed_b73/by804	
+182	2014-8-8	liuhaijun	90	2014-12-8		100	10	11YXH1102	 	seed_kui3/b77	
+183	2014-8-8	liuhaijun	800	2014-12-8		155	超额	11YXH1103	 	seed_kui3/b77	
+184	2014-9-12	liuhaijun	2	2015-1-12		34	32	11YN2084	 	seed_b73/by804	
+185	2014-9-12	liuhaijun	2	2015-1-12		47	45	11YN1968	 	seed_b73/by804	
+186	2014-9-24	liuhaijun	2	2015-1-24		32	30	11YN2084	 	seed_b73/by804	
+187	2014-9-24	liuhaijun	2	2015-1-24		45	43	11YN1968	 	seed_b73/by804	
+188	2014-9-24	liuhaijun	2	2015-1-24		85	83	11YN2051	 	seed_b73/by804	
+189	2014-9-25	liuhaijun	2	2015-1-25		30	28	11YN2084	 	seed_b73/by804	
+190	2014-9-25	liuhaijun	2	2015-1-25		43	41	11YN1968	 	seed_b73/by804	

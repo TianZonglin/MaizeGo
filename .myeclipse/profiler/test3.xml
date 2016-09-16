@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="profiler.settings.instrument.empty.methods">true</entry>
+<entry key="ProfilerCPUSettings_profile_runnables">true</entry>
+<entry key="ProfilerCPUSettings_filter_type">2</entry>
+<entry key="ProfilerMemorySettings_track_every">10</entry>
+<entry key="ProfilerMemorySettings_mode">4</entry>
+<entry key="ProfilerCPUSettings_root_classes">org.db.advancese.**
+org.db.chr1_merged_all_snp.**
+org.db.chr2_merged_all_snp.**
+org.db.chr3_merged_all_snp.**
+org.db.germplasmlines.**
+org.db.metabolic_traits_e2.**
+org.db.metabolic_traits_zy.**
+org.db.phenotypes_294_rils_441_crosses.**
+org.db.phenoype_agri_traits.**
+org.db.trait_year_location.**
+org.hibernate.**
+org.search.**
+org.util.**
+ort.test.**
+</entry>
+<entry key="ProfilerCPUSettings_filter_value">org.db.advancese.*,
+org.db.chr1_merged_all_snp.*,
+org.db.chr2_merged_all_snp.*,
+org.db.chr3_merged_all_snp.*,
+org.db.germplasmlines.*,
+org.db.metabolic_traits_e2.*,
+org.db.metabolic_traits_zy.*,
+org.db.phenotypes_294_rils_441_crosses.*,
+org.db.phenoype_agri_traits.*,
+org.db.trait_year_location.*,
+org.hibernate.*,
+org.search.*,
+org.util.*,
+ort.test.*</entry>
+<entry key="profiler.settings.istrument.getter.setter.methods">true</entry>
+<entry key="myeclipse.profiling.mode">0</entry>
+<entry key="ProfilerMemorySettings_stacktraces">-1</entry>
+</properties>

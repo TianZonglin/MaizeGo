@@ -1,0 +1,15 @@
+ID	Modification_No	Modification_name	Before_value	After_value	user	date	Population
+58	1	11YN1759	100	88	liuhaijun	2014-5-29	seed_kb_ril	
+59	1	12RIL0200	200	 190	liuhaijun	2014-5-29	seed_kb_ril	
+60	82	11CQ0017	100	70	liuhaijun	2014-5-29	seed_amp_f2	
+61	82	11YN0054	100	 80	liuhaijun	2014-5-29	seed_amp_f2	
+63	2	11YN1969	80		liuhaijun	2014-6-3	seed_bb_ril	
+64	2	12RIL0002	200	 170	liuhaijun	2014-6-3	seed_bb_ril	
+78	1	11YN1968	100	87	liuhaijun	2014-6-3	seed_bb_ril	
+80	2	11AMH0052	100	100	liuhaijun	2014-6-3	seed_amp_f1	
+85	3	11YN_SEED_NUMBER	100	100	liuhaijun	2014-6-13	SEED_ASSOCIATION_MAPPING_PANEL	
+86	4	11YN1791	100		liuhaijun	2014-7-3	seed_kui3/b77	
+87	4	11YXH1103	100	 155	liuhaijun	2014-7-3	seed_kui3/b77	
+88	6	11YN2780	100		liuhaijun	2014-7-3	seed_zheng58/sk	
+89	6	11YXH1708	100	 45	liuhaijun	2014-7-3	seed_zheng58/sk	
+90	3	11YN2550	100	24	liuhaijun	2014-7-3	seed_k22/ci7	

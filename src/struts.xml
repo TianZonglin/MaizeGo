@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+    <package name="org.search" extends="struts-default">
+        <action name="basicsearch" class="org.search.BasicSearch">
+			<result name="success">/search.jsp</result>
+		</action>
+
+
+
+<!--kernel -->	  
+		<action name="by_kmpl" class="org.expression.Expression_km">
+			<result name="success">/Expression/expression_km.jsp</result>
+		</action>
+		
+		<action name="by_qqnormed" class="org.expression.Expression_qq">
+			<result name="success">/Expression/expression_qq.jsp</result>
+		</action>
+
+
+
+
+		
+<!-- Phenotypic Mapping  -->		
+		<action name="phenotypicsearch" class="org.search.PhenotypicSearch">
+			<result name="success">/Phenotypic/phenotypicsearch.jsp</result>
+		</action>
+		<action name="phenotypic_scopesearch" class="org.search.PhenotypicScopeSearch">
+			<result name="success">/Phenotypic/phenotypicscopesearch.jsp</result>
+		</action>
+		<action name="phenoagritraitssearch" class="org.phenotype.PhenoAgriTraitsSearch">
+			<result name="success">/Phenotypic/phenoagritraitssearch.jsp</result>
+		</action>		
+		<action name="phenoagritraits_scopesearch" class="org.phenotype.PhenoAgriTraitsScopeSearch">
+		<result name="success">/Phenotypic/phenoagritraitsscopesearch.jsp</result>
+		</action>		
+		<action name="phenoagritraits" class="org.phenotype.PhenoAgriTraits">
+		<result name="success">/Phenotypic/phenoagritraitsresult.jsp</result>
+		</action>		
+		<action name="blup" class="org.phenotype.Pheno_new">
+		<result name="success">/Phenotypic/pheno_new.jsp</result>
+		</action>	
+		
+<!--genotypic mapping -->		
+		<action name="genotypicsimplesearch" class="org.genotype.GenotypicSimpleSearch">
+			<result name="success">/Genotypic/genotypicsimplesearch.jsp</result>
+		</action>
+		<action name="genotypic_scopesearch" class="org.genotype.GenotypicScopeSearch">
+			<result name="success">/Genotypic/genotypicscopesearch.jsp</result>
+		</action>
+		<action name="genotypic" class="org.genotype.Genotypic">
+			<result name="success">/Genotypic/genotypicresult.jsp</result>
+		</action>
+		
+	    <action name="genotypic_new" class="org.genotype.Genotypic_new">
+			<result name="success">/Genotypic/genotypicresult_new.jsp</result>
+		</action>
+		
+	    <action name="genotypic_new1" class="org.genotype.Genotypic_new1">
+			<result name="success">/Genotypic/genotypicresult_new1.jsp</result>
+		</action>
+
+		
+
+	
+		
+<!--Advance Mapping   -->		
+		<action name="advancese" class="org.advance.Advance_user_define">
+			<result name="success">/Advance/advanceresult.jsp</result>
+		</action>
+		<action name="newadvancese" class="org.advance.Advance_selection">
+			<result name="success">/Advance/advanceresult.jsp</result>
+		</action>	
+		<action name="advance_blup" class="org.advance.Advance_blup">
+			<result name="success">/Advance/advanceresult_blup.jsp</result>
+		</action>
+		
+		
+		
+<!-- HIF Mapping    -->				
+		<action name="chartDisplaysearch" class="org.hif.ChartDisplaySearch">
+			<result name="success">/Hif/ChartDisplay/chartDisplaysearch.jsp</result>
+                </action>
+		<action name="tablesearch" class="org.hif.TableSearch">
+			<result name="success">/Hif/ChartDisplay/tablesearch.jsp</result>
+		</action>
+		<action name="chromosome" class="org.hif.ChromosomeSearch">
+			<result name="success">/Hif/Chromosome/chromosomesearch.jsp</result>
+		</action>
+		<action name="material" class="org.hif.Material">
+			<result name="success">/Hif/Chromosome/materialsearch.jsp</result>
+		</action>
+		
+		<action name="materialinformation" class="org.hif.MaterialInformation">
+			<result name="success">/FileDownload/csvDownload.jsp?name=${material}</result>
+		</action>			
+		
+		
+		
+		
+<!--mapping result -->					
+		<action name="bb_qtl_el" class="org.mappingresult.Mapping">
+			<result name="success">/MappingResult/mappingResultSearch.jsp</result>
+		</action>
+		<action name="gwas" class="org.mappingresult.Gwas">
+			<result name="success">/MappingResult/gwasResult.jsp</result>
+		</action>		
+	
+		
+		
+		
+		
+<!--Germplasm Mapping -->
+		<action name="germsearch" class="org.germplasm.GermSearch">
+			<result name="success">/Germplasmlines/germsearch.jsp</result>
+		</action>
+		<action name="germplas" class="org.germplasm.Germplas">
+			<result name="success">/Germplasmlines/germplasresult.jsp</result>
+		</action>		
+		
+		
+		
+		
+	
+
+	
+		<action name="dbtablesearch" class="org.download.DbtableSearch">
+			<result name="success">/Download/dbtablesearch.jsp</result>
+		</action>
+		
+		<action name="DbtableDown" class="org.download.DbtableDown">
+			<result name="success">/Download/exportdbtable_csv.jsp</result>
+		</action>
+		
+		
+		<action name="expression" class="org.expression.Expression">
+			<result name="success">/Expression/expressionchart.jsp</result>
+		</action>				
+
+
+<!-- metabolite mapping     -->
+		<action name="data2" class="org.metabolite.Data2">
+			<result name="success">/Metabolite/data2.jsp</result>
+		</action>	
+		<action name="data3" class="org.metabolite.Data3">
+			<result name="success">/Metabolite/data3.jsp</result>
+		</action>	
+		<action name="data4" class="org.metabolite.Data4">
+			<result name="success">/Metabolite/data4.jsp</result>
+		</action>	
+		<action name="data5" class="org.metabolite.Data5">
+			<result name="success">/Metabolite/data5.jsp</result>
+		</action>	
+		<action name="metabolite" class="org.metabolite.Metabolite">
+			<result name="success">/Metabolite/metaboliteResult.jsp</result>
+		</action>	
+
+
+
+<!-- login mapping-->							
+		<action name="doLogin" class="org.user.Login">
+		    <result name="error" >/index.jsp</result>
+			<result name="success" >/index.jsp</result>
+			
+		</action>					
+		<action name="loginout" class="org.user.LoginOut">
+			<result name="success" >/index.jsp</result>
+			<result name="error">/index.jsp</result>
+		</action>	
+		
+		<action name="checklogin" class="org.user.Login" method="checkLogin">	
+		</action>	
+		
+		
+		
+		
+<!-- graph mapping-->
+            <action name="relation" class="graph.Relationresult">
+			<result name="success" >/graph/relationresult.jsp</result>
+			<result name="error">/graph/relationerror.jsp</result>
+			</action>
+			<action name="showgraph" class="graph.Relationresult">
+			<result name="success" >/graph/shownodes.jsp</result>
+			<result name="error">/graph/relationerror.jsp</result>
+			</action>		
+			<action name="leastroad" class="graph.Leastroad">
+			<result name="success" >/graph/leastroadresult.jsp</result>
+			<result name="error">/graph/leastroaderror.jsp</result>
+			<result name="SUC" >/graph/leastroadresultsuc.jsp</result>
+			</action>
+			<action name="draw" class="graph.Draw">
+			<result name="success" >/graph/drawsuccess.jsp</result>
+			</action>	
+		 <action name="t-test" class="graph.T_test">
+			<result name="success">/graph/t_test.jsp</result>
+		</action>	
+		<action name="t-test1" class="graph.T_test_fx">
+			<result name="success">/graph/t_test_fx.jsp</result>
+		</action>
+
+
+<!--seedbath mapping -->			
+	<action name="update2" class="org.seedbatch.Update2">
+			<result name="success">/SeedBatch/update2.jsp</result>
+		</action>	
+		<action name="update_result" class="org.seedbatch.Update_result">
+			<result name="success">/SeedBatch/update_result.jsp</result>
+		</action>
+						
+		<action name="upload" class="org.seedbatch.SeedUpload">
+			<result name="success">/SeedBatch/seedupload.jsp</result>
+		</action>
+		<action name="showupload" class="org.seedbatch.ShowUpload">
+			<result name="success">/SeedBatch/showupload.jsp</result>
+		</action>				
+	
+    <!-- seed mapping   -->
+		<action name="seed" class="org.seed.SeedManage">
+			<result name="success">/Seed/seedresult.jsp</result>
+		</action>			
+		<action name="delete" class="org.seed.Delete">
+			<result name="success">/Seed/seedresult.jsp</result>
+		</action>	
+		<action name="update" class="org.seed.Update">
+			<result name="success">/Seed/update.jsp</result>
+		</action>			
+		<action name="update1" class="org.seed.Update1">
+			<result name="success">/Seed/seedresult.jsp</result>
+			<result name="input">/Seed/borrow_info.jsp</result>
+		</action>	
+		<action name="add" class="org.seed.Add">
+			<result name="success">/Seed/seedresult.jsp</result>
+		</action>
+		<action name="borrow" class="org.seed.BorrowManage">
+			<result name="success">/Seed/borrow_info.jsp</result>
+		</action>	
+		<action name="borrow_add" class="org.seed.BorrowAdd">
+			<result name="success">/Seed/borrow_info.jsp</result>
+		</action>	
+		<action name="borrow_delete" class="org.seed.BorrowDelete">
+			<result name="success">/Seed/borrow_info.jsp</result>
+		</action>	
+		<action name="borrow_update" class="org.seed.BorrowUpdate">
+			<result name="success">/Seed/borrowupdate.jsp</result>
+		</action>	
+		<action name="borrow_update1" class="org.seed.BorrowUpdate1">
+			<result name="success">/Seed/borrow_info.jsp</result>
+		</action>
+		<action name="list" class="org.seed.List">
+			<result name="success">/Seed/listresult.jsp</result>
+		</action>				
+		<action name="source" class="org.seed.Source">
+			<result name="success">/Seed/sourceresult.jsp</result>
+		</action>				
+		<action name="modification" class="org.seed.Modification">
+			<result name="success">/Seed/modification.jsp</result>
+		</action>	
+		<action name="seedBorrow" class="org.seed.SeedBorrow">
+			<result name="success">/Seed/borrow_select_info.jsp</result>
+		</action>
+		<action name="seedBorrow1" class="org.seed.SeedBorrow1">
+			<result name="success">/Seed/borrow_info.jsp</result>
+		</action>						
+		<action name="affiliation" class="org.seed.Affiliation">
+			<result name="success">/Seed/affiliation_info.jsp</result>
+		</action>	
+		<action name="affiliation_add" class="org.seed.Affiliation_add">
+			<result name="success">/Seed/affiliation_info.jsp</result>
+		</action>			
+		<action name="affiliation_delete" class="org.seed.Affiliation_delete">
+			<result name="success">/Seed/affiliation_info.jsp</result>
+		</action>			
+		<action name="affiliation_update" class="org.seed.Affiliation_update">
+			<result name="success">/Seed/affiliation_info.jsp</result>
+		</action>	
+		
+		
+		<action name="homepapers" class="org.home.Homepaper">
+			<result name="success">/Home/papers.jsp</result>
+		</action>	
+		
+		 <!-- JBrowse mapping   -->
+			
+		<action name="gff3" class="org.jbrowse.GFF3Graph">
+			<result name="success">/JBrowse/gff3Graph.jsp</result>
+		</action>		
+										
+	 </package>	 
+
+
+
+<package name="" extends="json-default">
+    <action name="test" class="org.metabolite.TestAjax">
+        <result name="success" type="json"></result>
+    </action>
+</package>
+
+	 
+	 
+</struts>    

@@ -1,0 +1,25 @@
+
+#errorclass,.AdvancedSearch,.button_1,.ExportList,.top_search,.top_search_hover,.TabCurrent,.TabLink,.TabExport,.simple-link,.detail-current,.simple-current,.detail-link,.HideInfo,.ShowInfo,.choose,.export_copy,.export_export,.export_refworks,.export_qingkong,.w-button1,.w-button2{background:url(../images/web.gif) no-repeat;}
+
+.AdvancedSearch{font-weight:bold; background-position:-152px -71px; font-size:13px;}
+
+#search_list li span{ float:right;}
+.input_1{ width:180px; font-size:13px;}
+.button_1{ background-position:-278px -102px; border:0; width:84px; height:24px; text-align:center; color:#0a3792; cursor:pointer; font-size:12px; margin-left:30px;}
+.button_1_margin{margin-bottom:4px;background:none;border:none;color:#999999; cursor:pointer; text-decoration:underline;}
+.button_1_margin:hover{color:#f60;}
+
+#AdvancedSearchList table{margin:15px 0 12px 30px;_margin-left:14px;width:580px;_width:575px;border:0; float:left;}
+#AdvancedSearchList table td{padding-right:2px;margin-bottom:1px; vertical-align:top;height:26px;}
+#AdvancedSearchList .td1{width:16px;}
+#AdvancedSearchList .td2{width:145px;}
+#AdvancedSearchList .td3{width:50px;}
+
+.space_box{ padding-left:14px;}
+.w-button1{ width:11px; height:17px; background-position:-301px -70px;  float:left; border:0; cursor:pointer; margin-right:8px; }
+.w-button2{ width:11px; height:17px; background-position:-325px -70px; float:left; border:0; cursor:pointer;margin-right:8px;}
+
+
+
+
+

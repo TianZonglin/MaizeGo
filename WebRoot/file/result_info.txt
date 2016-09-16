@@ -1,0 +1,26 @@
+ID	BorrowTime	Borrower	Number	BackTime	BackNumber	BeforeNum	AfterNum	Type	Notes	Population	
+37	2014-9-12	liuhaijun	1	2015-1-12		0	超额	12RIL0192	 	seed_b73/by804	
+38	2014-9-12	liuhaijun	2	2015-1-12		34	32	11YN2084	 	seed_b73/by804	
+39	2014-9-12	liuhaijun	2	2015-1-12		47	45	11YN1968	 	seed_b73/by804	
+40	2014-9-12	liuhaijun	1	2015-1-12		0	超额	11YN1969	 	seed_b73/by804	
+41	2014-9-24	liuhaijun	1	2015-1-24		0	超额	12RIL0192	 	seed_b73/by804	
+42	2014-9-24	liuhaijun	2	2015-1-24		32	30	11YN2084	 	seed_b73/by804	
+43	2014-9-24	liuhaijun	2	2015-1-24		45	43	11YN1968	 	seed_b73/by804	
+44	2014-9-24	liuhaijun	1	2015-1-24		0	超额	11YN1969	 	seed_b73/by804	
+45	2014-9-24	liuhaijun	2	2015-1-24		85	83	11YN2051	 	seed_b73/by804	
+46	2014-9-24	liuhaijun	1	2015-1-24		180	179	12RIL0003	 	seed_b73/by804	
+47	2014-9-25	liuhaijun	1	2015-1-25		0	超额	12RIL0192	 	seed_b73/by804	
+48	2014-9-25	liuhaijun	2	2015-1-25		30	28	11YN2084	 	seed_b73/by804	
+49	2014-9-25	liuhaijun	2	2015-1-25		43	41	11YN1968	 	seed_b73/by804	
+50	2014-9-25	liuhaijun	1	2015-1-25		0	超额	11YN1969	 	seed_b73/by804	
+51	2014-9-25	liuhaijun	2	2015-1-25		83	81	11YN2051	 	seed_b73/by804	
+52	2014-9-25	liuhaijun	1	2015-1-25		0	超额	12RIL0192	 	seed_b73/by804	
+53	2014-9-25	liuhaijun	2	2015-1-25		28	26	11YN2084	 	seed_b73/by804	
+54	2014-9-25	liuhaijun	2	2015-1-25		41	39	11YN1968	 	seed_b73/by804	
+55	2014-9-25	liuhaijun	1	2015-1-25		0	超额	11YN1969	 	seed_b73/by804	
+56	2014-9-25	liuhaijun	2	2015-1-25		81	79	11YN2051	 	seed_b73/by804	
+57	2014-9-25	liuhaijun	1	2015-1-25		0	超额	12RIL0192	 	seed_b73/by804	
+58	2014-9-25	liuhaijun	2	2015-1-25		26	24	11YN2084	 	seed_b73/by804	
+59	2014-9-25	liuhaijun	2	2015-1-25		39	37	11YN1968	 	seed_b73/by804	
+60	2014-9-25	liuhaijun	1	2015-1-25		0	超额	11YN1969	 	seed_b73/by804	
+61	2014-9-25	liuhaijun	2	2015-1-25		79	77	11YN2051	 	seed_b73/by804	

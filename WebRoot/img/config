@@ -1,0 +1,200 @@
+{
+    "event": {
+        "start": {
+            "type": "startEvent",
+            "width": 32,
+            "height": 32,
+            "url": "img/event/start.png"
+        },
+        "end": {
+            "type": "endEvent",
+            "width": 32,
+            "height": 32,
+            "url": "img/event/end.png"
+        }
+    },
+    "data": {
+        "object": {
+            "type": "dataObject",
+            "width": 44,
+            "height": 59,
+            "url": "img/data/object.png"
+        },
+        "input": {
+            "type": "dataInput",
+            "width": 44,
+            "height": 59,
+            "url": "img/data/input.png"
+        },
+        "output":{
+            "type": "dataOutput",
+            "width": 44,
+            "height": 59,
+            "url": "img/data/output.png"
+        },
+        "store":{
+            "type": "dataStore",
+            "width": 44,
+            "height": 59,
+            "url": "img/data/store.png"
+        }
+    },
+    "gateway":{
+        "exclusive":{
+            "type": "exclusiveGateway",
+            "width": 32,
+            "height": 32,
+            "url": "img/gateway/exclusive.png"
+        },
+        "inclusive":{
+            "type": "inclusiveGateway",
+            "width": 32,
+            "height": 32,
+            "url": "img/gateway/inclusive.png"
+        },
+        "parallel":{
+            "type": "parallelGateway",
+            "width": 32,
+            "height": 32,
+            "url": "img/gateway/parallel.png"
+        }
+    },
+    "subprocess":{
+        "event":{
+            "type": "eventSubprocess",
+            "widht": 107,
+            "height": 75,
+            "left_top":{
+                "x": 0,
+                "y": 0,
+                "widht": 6,
+                "height": 6,
+                "url": "img/subprocess/event/left_top.png"
+            },
+            "top":{
+                "x": 6,
+                "y": 0,
+                "widht": 95,
+                "height": 6,
+                "url": "img/subprocess/event/top.png"
+            },
+            "right_top":{
+                "x": 101,
+                "y": 0,
+                "widht": 6,
+                "height": 6,
+                "url": "img/subprocess/event/right_top.png"
+            },
+            "left":{
+                "x": 0,
+                "y": 6,
+                "widht": 6,
+                "height": 63,
+                "url": "img/subprocess/event/left.png"
+            },
+            "mid":{
+                "x": 6,
+                "y": 6,
+                "widht": 95,
+                "height": 63,
+                "url": "img/subprocess/event/mid.png"
+            },
+            "right":{
+                "x": 101,
+                "y": 6,
+                "widht": 6,
+                "height": 63,
+                "url": "img/subprocess/event/right.png"
+            },
+            "left_bottom":{
+                "x": 0,
+                "y": 69,
+                "widht": 6,
+                "height": 6,
+                "url": "img/subprocess/event/left_bottom.png"
+            },
+            "bottom":{
+                "x": 6,
+                "y": 69,
+                "widht": 95,
+                "height": 6,
+                "url": "img/subprocess/event/bottom.png"
+            },
+            "right_bottom":{
+                "x": 101,
+                "y": 69,
+                "widht": 6,
+                "height": 6,
+                "url": "img/subprocess/event/right_bottom.png"
+            }
+        },
+        "transaction":{
+            "type": "transactionSubprocess",
+            "widht": 107,
+            "height": 75,
+            "left_top":{
+                "x": 0,
+                "y": 0,
+                "widht": 6,
+                "height": 6,
+                "url": "img/subprocess/transaction/left_top.png"
+            },
+            "top":{
+                "x": 6,
+                "y": 0,
+                "widht": 95,
+                "height": 6,
+                "url": "img/subprocess/transaction/top.png"
+            },
+            "right_top":{
+                "x": 101,
+                "y": 0,
+                "widht": 6,
+                "height": 6,
+                "url": "img/subprocess/transaction/right_top.png"
+            },
+            "left":{
+                "x": 0,
+                "y": 6,
+                "widht": 6,
+                "height": 63,
+                "url": "img/subprocess/transaction/left.png"
+            },
+            "mid":{
+                "x": 6,
+                "y": 6,
+                "widht": 95,
+                "height": 63,
+                "url": "img/subprocess/transaction/mid.png"
+            },
+            "right":{
+                "x": 101,
+                "y": 6,
+                "widht": 6,
+                "height": 63,
+                "url": "img/subprocess/transaction/right.png"
+            },
+            "left_bottom":{
+                "x": 0,
+                "y": 69,
+                "widht": 6,
+                "height": 6,
+                "url": "img/subprocess/transaction/left_bottom.png"
+            },
+            "bottom":{
+                "x": 6,
+                "y": 69,
+                "widht": 95,
+                "height": 6,
+                "url": "img/subprocess/transaction/bottom.png"
+            },
+            "right_bottom":{
+                "x": 101,
+                "y": 69,
+                "widht": 6,
+                "height": 6,
+                "url": "img/subprocess/transaction/right_bottom.png"
+            }
+        }
+    }
+}

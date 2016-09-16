@@ -1,0 +1,11 @@
+261 SSR markers for the 294 RILs Genotypic 261 SSR markers for the 294 RILs 2013/12/26
+261 SSR markers for the 441 crosses Genotypic 261 SSR markers for the 441 crosses 2013/12/26
+3184 bins for the 256 RILs Genotypic 3184 bins for the 256 RILs 2013/12/26
+MaizeGo_expression Expression MaizeGo_expression 2013/12/26
+metabolic traits-E1 Phenotypic metabolic traits-E1 2013/12/26
+metabolic traits-ZY Phenotypic metabolic traits-ZY 2013/12/26
+metabolic traits-E2 Phenotypic metabolic traits-E2 2013/12/26
+metabolic traits-E3 Phenotypic metabolic traits-E3 2013/12/26
+Phenotypes  of the 294  RILs and 441 crosses Phenotypic Phenotypes  of the 294  RILs and 441 crosses 2013/12/26
+Germplasmlines Genetic Germplasmlines 2013/12/26
+Agri_traits Genetic Agri_traits 2013/12/26

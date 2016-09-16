@@ -1,0 +1,2 @@
+No	FieldNo	LineName	location	Remark1	Remark2
+1002	11YXB1001-1	K22/CI7 F7	第5铁盒	大于100粒	2011BJ/GENOTYPED	
