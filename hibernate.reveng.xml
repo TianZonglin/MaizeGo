@@ -8,4 +8,4 @@
 		<generator class="native"></generator>
 	</primary-key>
 </table>
-</hibernate-reverse-engineering>
+</hibernate-reverse-engineering>    
