@@ -9,6 +9,7 @@ pollination) of 368 lines and a 50 K array for all 508 individuals.</pre>
 <pre><a href='http://modem.hzau.edu.cn/'>http://modem.hzau.edu.cn/</a></pre>
 ## more details see article
 <pre><a href='https://academic.oup.com/database/article-lookup/doi/10.1093/database/baw117'>MODEM: multi-omics data envelopment and mining in maize</a></pre>
+
 ```gantt
     title 项目开发流程
         需求分析       :a1, 2016-06-22, 3d
